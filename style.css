@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;@600;800&display=swap');
+
+
+:root {
+    --primary: #27374D;
+    --box-color: #526D82;
+    --prime-color: #9AC5F4;
+    --prime2: #C147E9;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.calculator {
+    background-color: var(--primary);
+    width: 400px;
+
+    .display {
+        color: white;
+    }
+
+    .box-display {
+        .txt-first {
+            font-size: 18px;
+            text-align: end;
+        }
+    }
+
+    .num {
+        gap: 0.4rem;
+        flex-direction: column-reverse;
+
+        .gap {
+            gap: 0.4rem;
+        }
+
+        .box-num {
+            background-color: var(--box-color);
+            text-align: center;
+            font-size: 19px;
+            font-weight: 400;
+            color: white;
+            border: 0;
+        }
+
+        .prime {
+            color: var(--prime-color);
+        }
+
+        .prime2 {
+            background-color: var(--prime2);
+        }
+    }
+}

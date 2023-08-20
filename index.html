@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-sm p-4 rounded shadow-lg my-5 calculator ml-auto">
+        <div class="container d-flex display justify-content-end my-5">
+            <div class="box-display p-2">
+                <p class="txt-first">0</p>
+                <h1 class="txt-result text-end">0</h1>
+            </div>
+        </div>
+        <div class="container d-flex num">
+            <div class="row gap d-flex">
+                <button class="col rounded p-4 box-num">0</button>
+                <button class="col-9 rounded p-4 prime2 box-num hasil">=</button>
+            </div>
+            <div class="row gap d-flex">
+                <button class="col rounded p-4 box-num">1</button>
+                <button class="col rounded p-4 box-num">2</button>
+                <button class="col rounded p-4 box-num">3</button>
+                <button class="col rounded p-4 prime2 oprasi box-num">+</button>
+            </div>
+            <div class="row gap d-flex">
+                <button class="col rounded p-4 box-num">4</button>
+                <button class="col rounded p-4 box-num">5</button>
+                <button class="col rounded p-4 box-num">6</button>
+                <button class="col rounded p-4 prime2 oprasi box-num">-</button>
+            </div>
+            <div class="row gap d-flex">
+                <button class="col rounded p-4 box-num">7</button>
+                <button class="col rounded p-4 box-num">8</button>
+                <button class="col rounded p-4 box-num">9</button>
+                <button class="col rounded p-4 prime2 oprasi box-num">X</button>
+            </div>
+            <div class="row gap d-flex">
+                <button class="col rounded prime p-4 box-num clear">AC</button>
+                <button class="col rounded prime p-4 box-num bckSpace">del</button>
+                <button class="col rounded prime p-4 box-num oprasi">%</button>
+                <button class="col rounded  p-4 prime2 oprasi box-num">/</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
